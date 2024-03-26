@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string></string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>enum DeviceType {
+    case iPhoneSE2
+    case iPhone8
+    case iPhone12Pro
+    case iPhone12ProMax
+
+    func name() -&gt; String {
+        switch self {
+        case .iPhoneSE2:
+            return "iPhone SE"
+        case .iPhone8:
+            return "iPhone 8"
+        case .iPhone12Pro:
+            return "iPhone 12 Pro"
+        case .iPhone12ProMax:
+            return "iPhone 12 Pro Max"
+        }
+    }
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>C47B9F5B-2699-47E5-8984-10A553EF6E15</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>DeviceType</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
